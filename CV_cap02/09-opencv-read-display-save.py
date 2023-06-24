@@ -20,7 +20,7 @@ print("Canais: {}".format(image.shape[2]))
 
 # Mostrando a imagem e aguardando uma tecla pressionada para finalizar
 cv2.imshow("Image", image)
-cv2.waitKey(0) 
+cv2.waitKey(0) # Espera finalizar com a ação de pressioniar uma tecla
 
 # Salvando uma cópia da imagem
 cv2.imwrite("images/nova_familia.jpg", image)
